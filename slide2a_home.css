@@ -1,0 +1,35 @@
+#slideshow {
+  position: relative;
+  width: 930px;
+  margin: 0 auto;
+}
+#slideshow-slides {
+  margin: 0;
+  padding: 0;
+  width: 930px;
+  height: 1152px; /* max image height 1122 + 30 */
+  /* background-color: #aaa; */
+}	
+#slideshow-slides div.slideshow-slide-first {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 930px;
+  background-color: #aaa;
+  margin: 0;
+  padding: 0;
+}
+#slideshow-slides div.slideshow-slide {
+  display: none;
+  top: 0;
+  left: 0;
+  width: 930px;
+  background-color: #aaa;
+  margin: 0;
+  padding: 0;
+}
+#slideshow img {
+  display: block;
+  border: 0;
+  margin: 0;
+}
